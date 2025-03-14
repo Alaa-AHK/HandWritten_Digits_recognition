@@ -13,10 +13,13 @@ It applies fundamental deep learning concepts to classify handwritten digits.
 - Matplotlib
 
 ## Model Implementation
-The model is a feedforward neural network with:
+ The model is a feedforward neural network trained using backpropagation and gradient descent. It consists of:
 - Input Layer: Flattened 28x28 pixel images.
 - Two Hidden Layers: 300 and 100 neurons with ReLU activation.
 - Output Layer: 10 neurons with Softmax activation.
+
+Training Process:
+The model is trained for 15 epochs using Stochastic Gradient Descent (SGD).
 
 ### Test Accuracy:
 After training, the model achieved **98%** accuracy on the test set.
