@@ -6,7 +6,7 @@ It uses TensorFlow and Keras to train a Multi-Layer Perceptron (MLP) model, achi
 This is a machine learning project inspired by Aurélien Géron,Hands-On Machine Learning.  
 It applies fundamental deep learning concepts to classify handwritten digits.
 
-### Libraries Used:
+*Libraries Used:*
 - TensorFlow  
 - Keras  
 - NumPy  
@@ -18,9 +18,9 @@ It applies fundamental deep learning concepts to classify handwritten digits.
 - Two Hidden Layers: 300 and 100 neurons with ReLU activation.
 - Output Layer: 10 neurons with Softmax activation.
 
-Training Process:
+*Training Process:*
 The model is trained for 15 epochs using Stochastic Gradient Descent (SGD).
 
-### Test Accuracy:
+*Test Accuracy:*
 After training, the model achieved **98%** accuracy on the test set.
 
